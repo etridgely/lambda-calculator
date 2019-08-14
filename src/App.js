@@ -28,16 +28,19 @@ function App() {
         <div className="screen">
           <Display number={1024}/>
         </div>
-
-        <div className="numbers">
-          <Numbers/>
-        </div>
-        <div className="operators">
-          <Operators/>
-        </div>
-        <div className="special">
-          < Specials/>
-        </div>
+            <div className="Buttons">
+              <div className="specificButtons">
+                <div className="special">
+                    < Specials/>
+                  </div>
+                <div className="numbers">
+                  <Numbers/>
+                </div>
+                <div className="operators">
+                  <Operators/>
+                </div>
+            </div>
+        </div>  
       </div>
     </div>
   );
